@@ -6,8 +6,8 @@
 
 body {
     background-color:  rgb(206, 215, 220);
-    max-width: 100vw;
-    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
