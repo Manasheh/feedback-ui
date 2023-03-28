@@ -17,13 +17,13 @@ ratingEls.forEach((rating) => {
 
 btn.addEventListener('click', () => {
     if (selectedRating !== '') {
-        container.innerHTML = `Thank You !
+        container.innerHTML = `<strong class='thank'>Thank You !</strong>
         <br/>
         <br/>
-        FeedBack: ${selectedRating}
+        <strong class='select'>FeedBack: ${selectedRating} </strong>
         <br/>
         <br/>
-        We'll use your feedback to improve our UI
+        <p class='improve'>We'll use your feedback to improve our UI </p>
         `
     }
 

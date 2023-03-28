@@ -78,3 +78,25 @@ body {
     transform: scale(0.97);
 }
 
+@media only screen and (max-width:600px) {
+    .container h2 {
+        font-size: 1.3rem;
+        padding: 8px;
+    }
+    .rating img {
+        width: 35px;
+        margin: 7px;
+        padding: 8px;
+    }
+    .rating {
+        font-size: 12px;
+    }
+}
+
+/* .thank {
+    font-size: 1.8rem;
+}
+.select, .improve {
+    font-size: 4rem;
+} */
+
